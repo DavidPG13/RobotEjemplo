@@ -1,0 +1,41 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">RobotEjemplo</string>
+    <string name="title_activity_robots_list">Robots List</string>
+    <string name="title_activity_robots_form">Robots Form</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">David Prudencio</string>
+    <string name="nav_header_subtitle">\@david_prudencio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_info">Info</string>
+
+
+    <!-- Menu -->
+    <string name="action_exit">Exit</string>
+
+    <!-- Home -->
+    <string name="text_home_title">IoT Robot Blue</string>
+    <string name="text_home_msg">Welcome to the app to register Robot Blue participations.</string>
+    <string name="btn_robot">Robot Control</string>
+    <string name="btn_student">Participants Control</string>
+
+    <!-- Form Robots -->
+    <string name="hind_id">ID</string>
+    <string name="hind_name">Robot name</string>
+    <string name="hind_desc">Describe your robot</string>
+    <string name="text_participation">Participations:</string>
+    <string name="text_funtions">Funtions:</string>
+    <string name="radio_desing">Desing</string>
+    <string name="radio_race">Race</string>
+    <string name="check_light">Lights</string>
+    <string name="check_sound">Sounds</string>
+    <string name="check_sensor">Sensors</string>
+
+
+
+</resources>

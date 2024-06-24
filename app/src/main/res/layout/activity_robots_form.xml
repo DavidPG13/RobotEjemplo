@@ -90,7 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/std_margin"
-        android:layout_marginTop="@dimen/std_margin"
+        android:layout_marginTop="@dimen/dbl_margin"
         android:text="@string/text_funtions"
         android:textSize="@dimen/content_sz"
         app:layout_constraintStart_toStartOf="parent"

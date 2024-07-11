@@ -13,11 +13,30 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:text="¿Necesitas ayuda?"
         android:textAlignment="center"
         android:textSize="20sp"
-        android:text="Fill help layout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="184dp"
+        android:text="Inicio: Añade robots y participantes.
+            Robots: Gestiona la información de los robots.
+                                                        Participantes: Registra los datos de los participantes.
+                                                        Añadir Robot: Guarda información sobre nuevos robots.
+                                                                    Ayuda: Detalles sobre las funciones disponibles.
+                                            Información: Detalles sobre la aplicación y su propósito."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_help" />
 </androidx.constraintlayout.widget.ConstraintLayout>

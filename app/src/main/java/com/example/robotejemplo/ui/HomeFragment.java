@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.robotejemplo.ParticipantesFormMainActivity;
 import com.example.robotejemplo.RobotsFormActivity;
 import com.example.robotejemplo.databinding.FragmentHomeBinding;
 
@@ -40,6 +41,8 @@ public class HomeFragment extends Fragment {
                 //Opens the Students managament views
                 Log.d("HOME", "Participants click");
                 Toast.makeText(getContext(), "Manage Participants!", Toast.LENGTH_SHORT).show();
+                Intent formIntent = new Intent(getContext(), ParticipantesFormMainActivity.class);
+                startActivity(formIntent);
             }
         });
 

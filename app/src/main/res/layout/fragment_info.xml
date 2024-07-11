@@ -13,11 +13,22 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:textAlignment="center"
+        android:text="Inicio: Pantalla principal para añadir robots y participantes.
+
+                                            Robots: Ingreso y gestión de la información de los robots.
+
+                                        Participantes: Registro y administración de la información de los participantes.
+
+                                  Añadir Robot: Guarda los datos del formulario de robots.
+
+                                           Ayuda: Detalles sobre la funcionalidad de cada sección.
+                                                Información: Detalles sobre la aplicación, su creador y propósito."
+        android:textAlignment="textStart"
         android:textSize="20sp"
-        android:text="Fill info layout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,7 @@
         android:layout_marginTop="@dimen/dbl_margin"
         android:layout_marginEnd="@dimen/std_margin"
         android:text="@string/text_home_title"
-        android:textColor="#5B2C6F"
+        android:textColor="#5A7D7C"
         android:textSize="@dimen/title_sz"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +45,7 @@
         android:text="@string/btn_robot"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="#8E44AD"
+        android:backgroundTint="#2c3e50"
         app:layout_constraintTop_toBottomOf="@+id/txv_welcome" />
 
     <Button
@@ -57,7 +57,7 @@
         android:layout_marginEnd="@dimen/std_margin"
         android:text="@string/btn_student"
         android:textAlignment="center"
-        android:backgroundTint="#8E44AD"
+        android:backgroundTint="#2c3e50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_robots" />

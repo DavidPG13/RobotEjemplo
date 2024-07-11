@@ -143,11 +143,12 @@
         app:layout_constraintTop_toBottomOf="@+id/InI_func" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_save"
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/std_margin"
         android:clickable="true"
+        android:backgroundTint="#D2B4DE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spn_group"

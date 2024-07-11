@@ -18,6 +18,7 @@ import com.example.robotejemplo.databinding.ActivityRobotsListBinding;
 public class RobotsListActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
+
     private ActivityRobotsListBinding binding;
 
     @Override
@@ -27,14 +28,11 @@ public class RobotsListActivity extends AppCompatActivity {
         binding = ActivityRobotsListBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-       //setSupportActionBar(binding.toolbar);
+       setSupportActionBar(binding.toolbar1);
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_robots_list);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
-        /*
-        binding.fab.setOnClickListener(new View.OnClickListener() {
+
+        binding.toolbar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
@@ -43,13 +41,8 @@ public class RobotsListActivity extends AppCompatActivity {
             }
         });
 
-         */
+
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_robots_list);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
+
 }

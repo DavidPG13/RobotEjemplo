@@ -2,9 +2,9 @@
 <resources>
     <string-array name="gropus">
         <item>4TSM1</item>
-        <item>4 TSM 2</item>
-        <item>4-tsm-3</item>
-        <item>4-TDR-1</item>
+        <item>4TSM2</item>
+        <item>4TSM3</item>
+        <item>4TDR1</item>
     </string-array>
 
 </resources>

@@ -1,5 +1,6 @@
 package com.example.robotejemplo.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.robotejemplo.RobotsFormActivity;
 import com.example.robotejemplo.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
@@ -27,6 +29,8 @@ public class HomeFragment extends Fragment {
                 //Opens the Robots managament views
                 Log.d("HOME", "Robots click");
                 Toast.makeText(getContext(), "Manage Robots!", Toast.LENGTH_SHORT).show();
+                Intent formIntent = new Intent(getContext(), RobotsFormActivity.class);
+                startActivity(formIntent);
             }
         });
 
